@@ -17,8 +17,10 @@ Esse site foi criado como certificado das aulas de HTML/CSS/JS/Node/SQL do qual 
 1- Clone o repositório, com  `git clone https://github.com/BrunaRosa/Happy_NWL.git`
 
 2- Instale as dependências, rode: `npm install`
+Caso tenha algum erro de permissão, você pode rodar: `npm install -g`
 
 3- Inicie a aplicação com `npm start`
+Caso tenha algum erro pra rodar ('nodemon'), esse link possa te ajudar: `https://stackoverflow.com/questions/34662574/node-js-getting-error-nodemon-internal-watch-failed-watch-enospc`
 
 4- Acesse a aplicação colocando a url no browser `127.0.0.1:5500` ou `http://localhost:5500`
 

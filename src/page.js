@@ -19,13 +19,13 @@ module.exports = {
             orphanage.images = orphanage.images.split(",")
             orphanage.firstImage = orphanage.images[0] 
 
-            if(orphanage.open_on_weekends == "0") {
+            if(orphanage.open_on_weekends == "undefined") {
                 orphanage.open_on_weekends = false
             } else {
-                orphanage.open_on_weekends = true
+                orphanage.open_on_weekends = orphanage.open_on_weekends;
             }
 
-            return res.render('/orphanage', { orphanage })
+            return res.render('orphanage', { orphanage })
             } catch (error) {
                 console.log(error)
                 return res.send('Erro no banco de dados!')
@@ -56,7 +56,7 @@ module.exports = {
         }
 
         try {
-                    //salvar um orfanato
+        //salvar um orfanato
         const db = await Database
         await saveOrphanage(db,{
             lat: fields.lat,
