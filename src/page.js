@@ -25,7 +25,7 @@ module.exports = {
                 orphanage.open_on_weekends = true
             }
 
-            return res.render('orphanage', { orphanage })
+            return res.render('/orphanage', { orphanage })
             } catch (error) {
                 console.log(error)
                 return res.send('Erro no banco de dados!')

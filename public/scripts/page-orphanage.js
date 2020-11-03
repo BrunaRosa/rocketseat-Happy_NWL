@@ -12,7 +12,7 @@ const lng = document.querySelector('span[data-lng]').dataset.lng
 
 // create map
 const map = L.map('mapid', options).setView([lat,lng], 15);
-// const map = L.map('mapid', options).setView([-23.5609506,-46.8413463], 15);
+const map = L.map('mapid', options).setView([-23.5609506,-46.8413463], 15);
 
 
 //create and addtileLayer
@@ -31,7 +31,7 @@ const icon = L.icon({
 L
 .marker([lat,lng], { icon })
 .addTo(map)
-//.bindPopup(popup)
+.bindPopup(popup)
 
 
 /* image gallery */ 
