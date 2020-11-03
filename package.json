@@ -19,7 +19,8 @@
   "homepage": "https://github.com/BrunaRosa/Happy#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "sqlite-async": "^1.1.0"
   },
   "devDependencies": {
     "ws": "3.3.2"
