@@ -5,32 +5,27 @@ Esse site foi criado como certificado das aulas de HTML/CSS/JS/Node/SQL do qual 
 <!-- <img src="./src/files/icones-css-html.jpeg" alt="Icons HTML and Css" height="200"> -->
 
 <h2>Para acessar o site:</h2>
-<blockquote><b>Git page: (https://brunarosa.github.io/Imersao_css/app)</b></blockquote>
+<blockquote><b>Git page: (ainda será disponibilizado)</b></blockquote>
 
 <br>
 <h2>Pré- requisitos</h2>
 
-1- Instalar node.js
-
-2- Install express:
-`npm install express`
-
-3-Instalar hbs:
-`npm install hbs`
-
-4- Instalar o sqlite async:
-`npm install sqlite-async`
+1- Ter o node.js instalado na maquina, acesse https://nodejs.org/pt-br/
 
 <h2>Como rodar o projeto?</h2>
 
-`npm start`
+1- Clone o repositório, com  `git clone https://github.com/BrunaRosa/Happy_NWL.git`
 
-Entrar na porta: `http://localhost:5500`
+2- Instale as dependências, rode: `npm install`
 
-Para rodar o banco de dados manualmente: `node src/database/test.js`
+3- Inicie a aplicação com `npm start`
 
-<h3>Linguagens de marcação e estilização utilizadas</h3>
-<blockquote><b>HTML e CSS</b></blockquote>
+4- Acesse a aplicação colocando a url no browser `127.0.0.1:5500` ou `http://localhost:5500`
+
+OBS: Caso tenha algum problema no banco de dados, pode rodar o script ('test') manualmente: `node src/database/test.js`
+
+<h3>Linguagens de marcação/estilização/programação/banco de dados utilizados</h3>
+<blockquote><b>HTML/CSS/JavaScript/Node e SQL</b></blockquote>
 
 <br>
 <h2>Autora</h2>
