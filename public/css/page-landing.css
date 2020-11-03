@@ -56,7 +56,7 @@ main h1 {
   #container {
     padding: 5rem 2rem;
     /* shorthand background: imagem repeat / size  */
-    background: url("images/bg.svg") no-repeat 80% /
+    background: url("/images/bg.svg") no-repeat 80% /
       clamp(30rem, 54vw, 56rem);
   }
 

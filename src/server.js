@@ -1,7 +1,7 @@
 // import dependencies
 const express = require('express');
 const path = require('path');
-const pages = require('./pages.js');
+const pages = require('./page');
 
 // starting express
 const server = express()
@@ -12,7 +12,7 @@ server
     .use(express.static('public'))
 
     // config template engine
-    .set('views', path.join(__dirname, "views"))
+    .set('views', path.join(__dirname, "../src/views"))
     .set('view engine', 'hbs')
 
     // aplications routes
