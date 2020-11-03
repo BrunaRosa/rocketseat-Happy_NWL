@@ -27,6 +27,7 @@ Esse site foi criado como certificado das aulas de HTML/CSS/JS/Node/SQL do qual 
 
 Entrar na porta: `http://localhost:5500`
 
+Para rodar o banco de dados manualmente: `node src/database/test.js`
 
 <h3>Linguagens de marcação e estilização utilizadas</h3>
 <blockquote><b>HTML e CSS</b></blockquote>
