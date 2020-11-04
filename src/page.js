@@ -19,7 +19,7 @@ module.exports = {
             orphanage.images = orphanage.images.split(",")
             orphanage.firstImage = orphanage.images[0] 
 
-            if(orphanage.open_on_weekends == "undefined") {
+            if(orphanage.open_on_weekends == "1") {
                 orphanage.open_on_weekends = false
             } else {
                 orphanage.open_on_weekends = orphanage.open_on_weekends;
